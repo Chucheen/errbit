@@ -56,6 +56,7 @@ gem 'omniauth-google-oauth2'
 gem 'ri_cal'
 gem 'yajl-ruby', platform: 'ruby'
 gem 'json', platform: 'jruby'
+gem 'passenger', '5.0.26'
 
 group :development, :test do
   gem 'airbrake', '~> 4.3.5', require: false
