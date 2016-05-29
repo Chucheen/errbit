@@ -2,11 +2,7 @@
 .env
 db/*.sqlite3
 log/*.log
-tmp/**/*
-tmp/*
-config/config.yml
-config/deploy.rb
-config/deploy
+tmp/**/*l
 config/mongoid.yml
 config/newrelic.yml
 .rvmrc
