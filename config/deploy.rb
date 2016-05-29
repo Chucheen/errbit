@@ -20,7 +20,7 @@ set :linked_files, fetch(:linked_files, []).push('config/mongoid.yml', 'config/s
 
 set :rvm_ruby_version, '2.2.0'      # Defaults to: 'default'
 set :passenger_restart_with_sudo, true
-set :bundle_dir, "/usr/local/rvm/gems/ruby-2.2.0"
+set :passenger_restart_with_touch, true
 
 # set :pty, true
 # set :ssh_options, forward_agent: true
