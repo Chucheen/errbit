@@ -16,7 +16,7 @@ ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 set :deploy_to, '/export/errbit'
 set :keep_releases, 5
 
-set :linked_files, fetch(:linked_files, []).push('config/mongoid.yml', 'config/secrets.yml')
+# set :linked_files, fetch(:linked_files, []).push('config/mongoid.yml', 'config/secrets.yml')
 
 set :rvm_ruby_version, '2.2.0'      # Defaults to: 'default'
 set :passenger_restart_with_sudo, true
